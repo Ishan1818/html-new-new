@@ -1,0 +1,38 @@
+.animals{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.MAIN{
+    display:flex;
+    color: aquamarine;
+    
+    margin-left: 50px;
+}
+
+.snake{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    position:relative}
+
+a:link{
+    color:blue
+}
+a:visited{
+    color:crimson
+}
+
+ .snake:hover{
+        transform: scale(1, 2);
+    opacity:1;
+    }
+
+.snake p{
+    top:40%;
+    left:50%;
+    transform:translate(-40%, -50%);
+    position:absolute;
+    
+}
